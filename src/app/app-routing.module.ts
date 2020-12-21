@@ -6,6 +6,7 @@ const routes: Routes = [
     path: 'playground',
     loadChildren: () => import('./playground/playground.module').then((m) => m.PlaygroundModule),
   },
+  { path: 'lazy-page', loadChildren: () => import('./lazy/lazy.module').then(m => m.LazyModule) },
 ];
 
 @NgModule({

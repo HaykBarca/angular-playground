@@ -1,9 +1,15 @@
 <div class="menues">
   <ul>
-    <li *ngFor="let route of routeConstants" [routerLink]="route.path">{{ route.name }}</li>
+    <li *ngFor="let route of routeConstants">
+      <a [routerLink]="route.path">
+        {{ route.name }}
+      </a>
+    </li>
   </ul>
 </div>
 
 <div class="content-container">
-  <router-outlet></router-outlet>
+  <router-outlet>
+    <span class="loading" *ngIf="loading"></span>
+  </router-outlet>
 </div>
