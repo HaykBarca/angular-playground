@@ -2,4 +2,4 @@ https://web.dev/angular/
 Route preloading strategies in Angular
 
 
-main
+debug
