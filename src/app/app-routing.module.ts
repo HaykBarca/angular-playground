@@ -13,7 +13,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     QuicklinkModule,
-    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', preloadingStrategy: QuicklinkStrategy }),
+    // RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', preloadingStrategy: QuicklinkStrategy }),
+    RouterModule.forRoot(routes),
   ],
   exports: [RouterModule],
 })

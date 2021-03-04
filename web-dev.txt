@@ -1,5 +1,5 @@
 https://web.dev/angular/
-Performance budgets with the Angular CLI
+https://web.dev/faster-angular-change-detection/
 
 
 debug
