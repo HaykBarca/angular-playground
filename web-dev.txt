@@ -1,5 +1,1 @@
-https://web.dev/angular/
-https://web.dev/faster-angular-change-detection/
-
-
-debug
+https://www.learnrxjs.io/learn-rxjs/concepts/get-started-transforming
