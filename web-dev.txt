@@ -1,1 +1,1 @@
-https://www.learnrxjs.io/learn-rxjs/concepts/get-started-transforming
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html

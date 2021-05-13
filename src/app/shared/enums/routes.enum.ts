@@ -3,4 +3,5 @@ export enum RoutesEnum {
   cdkScrolling = '/playground/cdk-scrolling',
   lazyPage = '/lazy-page',
   rxjs = '/playground/rxjs',
+  typescript = '/playground/typescript',
 }
