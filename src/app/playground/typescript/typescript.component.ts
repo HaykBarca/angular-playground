@@ -18,6 +18,7 @@ export class TypescriptComponent implements OnInit {
     console.log(this.multiplePointsAndDivide(this.points.x, this.points.y, 3));
   }
 
+  // Here divider is a union type
   private multiplePointsAndDivide(x: number, y: number, divider: 2 | 3): number {
     return (x * y) / divider;
   }
